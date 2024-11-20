@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>iTalk - Text to Speech Assistant</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>iTalk</h1>
+        <h2>TEXT TO SPEECH ASSISTANT</h2>
+        <h3>FOR KIDS WITH NON-VERBAL AUTISM</h3>
+      </div>
+      <button id="toggle">Input Custom Text</button>
+      <div class="textblock">
+        <div id="close" class="close">X</div>
+        <div class="textarea">
+          <div class="textinput">
+            <select id="voices"></select>
+            <textarea
+              placeholder="Type what you need to say."
+              id="input"
+            ></textarea>
+            <button id="read">Talk</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main></main>
+    <footer>Developed with ❤️ by Prince OB</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
